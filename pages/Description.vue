@@ -1,18 +1,14 @@
 <template>
-  <div>
-    <header>
+
+<div>
+<header>
       <h1>抜き場</h1>
     </header>
-
-    <section @click="redirectTo('/workspaces/Nuxt3Bootstrap5AppDemo/pages/Description.vue')">
-      <h2>このサイトについて</h2>
-    </section>
-    <section @click="redirectTo('/workspaces/Nuxt3Bootstrap5AppDemo/pages/WeeklyPage.vue')">
-      <h2>今週オカズ</h2>
-    </section>
-  </div>
+    
+  <p>こんにちは！紳士の皆様！私はエロが大好きです！この気持ちを共有するべくこのサイトを作りました</p>
+  <p>YoutubeやX（旧Twitter）では使えないような表現や画像がたくさん使えたほうが伝わりやすいと思いますのでぜひ今晩のお供探しの参考にしてください！</p>
+</div>
 </template>
-
 <style>
 h1 {
   text-align: center;
@@ -53,8 +49,12 @@ export default {
     toggleSection(sectionName) {
       this.sections[sectionName] = !this.sections[sectionName];
     },
-    redirectTo(path) {
-      this.$router.push(path);
+    redirectTo(pageName) {
+      if (pageName === 'Description') {
+        this.$router.push('/workspaces/Nuxt3Bootstrap5AppDemo/pages/Description.vue');
+      } else if (pageName === 'WeeklyPage') {
+        this.$router.push('/workspaces/Nuxt3Bootstrap5AppDemo/pages/WeeklyPage.vue');
+      }
     }
   }
 }
