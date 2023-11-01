@@ -4,12 +4,12 @@
       <h1>抜き場</h1>
     </header>
 
-    <section @click="redirectTo('pages/WeeklyPage.vue')">
+    <section @click="redirectTo('/workspaces/Nuxt3Bootstrap5AppDemo/pages/WeeklyPage.vue')">
       <h2>このサイトについて</h2>
     </section>
-    <section @click="redirectTo('pages/WeeklyPage.vue')">
+    <NuxtLink to="/WeeklyPage.vue">
       <h2>今週のオカズ</h2>
-    </section>
+    </NuxtLink>>
   </div>
 </template>
 
