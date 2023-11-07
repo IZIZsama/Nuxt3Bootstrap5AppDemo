@@ -1,29 +1,19 @@
 <template>
-  <div>
-    <header>
+    <div>
+      <header>
       <NuxtLink to="/">
         <h1>抜き場</h1>
-      </NuxtLink>
-    </header>
+        </NuxtLink>
+      </header>
 
-    <NuxtLink to="/Description">
-      <h2>このサイトについて</h2>
-    </NuxtLink>
 
-    <NuxtLink to="/WeeklyPage">
-      <h2>今週のオカズ</h2>
-    </NuxtLink>
 
-    <NuxtLink to="/recommendation">
-      <h2>おすすめのエロゲまとめ！</h2>
-    </NuxtLink>
-
-    <footer>
+      <footer>
       <p>ktc23a31g0006@edu.kyoto-tech.ac.jpまでお問い合わせください</p>
     </footer>
   </div>
+  
 </template>
-
 <style>
 h1 {
   text-align: center;
@@ -33,11 +23,11 @@ h1 {
 
 h2 {
   position: relative;
-  padding: 1rem 0.5rem;
+  padding: 1rem .5rem;
   cursor: pointer;
 }
 
-h2::after {
+h2:after {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -46,7 +36,6 @@ h2::after {
   content: '';
   background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
 }
-
 footer {
   text-align: center;
   padding: 1rem 0;
@@ -62,8 +51,8 @@ export default {
     return {
       message: 'Hello Vue!',
       sections: {
-        about: true,
-        weekly: true
+        about: true, //
+        weekly: true //
       }
     };
   },

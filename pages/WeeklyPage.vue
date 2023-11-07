@@ -1,16 +1,17 @@
 <template>
   <div>
     <header>
-      <NuxtLink to="/index">
+      <NuxtLink to="/">
         <h1>抜き場</h1>
       </NuxtLink>
     </header>
+
     <section>
       <h2>今週オカズ</h2>
       <div class="card-container">
         <!-- tksand様の作品カード -->
-        <a href="https://twitter.com/Turkey_Sand" target="_blank" class="card-link">
-          <div class="card">
+        <div class="card">
+          <a href="https://twitter.com/Turkey_Sand" target="_blank" class="card-link">
             <img src="/F9sA2E0bEAAR6tW.jpg" alt="鈴仙" class="card-image">
             <div class="card-body">
               <h3>tksand様の作品</h3>
@@ -21,12 +22,12 @@
               </ul>
               <p>この作品はおっぱいの揺れ方がよくて周りの擬音がそそられるし表情がよかった</p>
             </div>
-          </div>
-        </a>
+          </a>
+        </div>
 
         <!-- ディッコさん様の作品カード -->
-        <a href="https://twitter.com/dikkosan" target="_blank" class="card-link">
-          <div class="card">
+        <div class="card">
+          <a href="https://twitter.com/dikkosan" target="_blank" class="card-link">
             <img src="/F-TrkYLbQAApH0-.jpg" alt="お嬢" class="card-image">
             <div class="card-body">
               <h3>ディッコさん様の作品</h3>
@@ -36,31 +37,30 @@
                 <li><a href="https://t.co/z6VodwOM29" target="_blank">fanbox</a></li>
               </ul>
               <p>お嬢かわいい！</p>
-              <a href="https://x.com/dikkosan/status/1721759977290019186?s=20">ポスト</a>
+              <a href="https://x.com/dikkosan/status/1721759977290019186?s=20" target="_blank">ポスト</a>
             </div>
-          </div>
-        </a>
+          </a>
+        </div>
 
-        
         <!-- KAGEMUSYA様の作品カード -->
-        <a href="https://twitter.com/_KAGEMUSYA" target="_blank" class="card-link">
-          <div class="card">
+        <div class="card">
+          <a href="https://twitter.com/_KAGEMUSYA" target="_blank" class="card-link">
             <img src="/F9uPDBfakAAzB6x.jpg" alt="一花" class="card-image">
             <div class="card-body">
               <h3>KAGEMUSYA様の作品</h3>
               <ul>
-                <li>X@_KAGEMUSYA</li>
+                <li>X:@_KAGEMUSYA</li>
                 <li><a href="http://kagemusya-web.fanbox.cc" target="_blank">fanbox</a></li>
               </ul>
               <p>この作品はハメ撮りされている一花がアヘ顔さらして楽しむ姿がちょー抜けます</p>
             </div>
-          </div>
-        </a>
+          </a>
+        </div>
 
         <!-- 藤崎ひかり様の作品カード -->
-        <a href="https://twitter.com/pedori3" target="_blank" class="card-link">
-          <div class="card">
-            <iframe width="480" height="360" src="/【僕の彼女は猫又おかゆ】ショート版.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <div class="card">
+          <a href="https://twitter.com/pedori3" target="_blank" class="card-link">
+            <iframe width="480" height="360" src="/&#8203;``【oaicite:0】``&#8203;ショート版.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <div class="card-body">
               <h3>藤崎ひかり様の作品</h3>
               <ul>
@@ -70,13 +70,17 @@
               </ul>
               <p>表情や滑らかさどれをとっても最高です!おかゆんの喜ぶお顔が抜きポイント高め！</p>
             </div>
-          </div>
-        </a>
-
+          </a>
+        </div>
       </div>
     </section>
+
+    <footer>
+      <p>ktc23a31g0006@edu.kyoto-tech.ac.jpまでお問い合わせください</p>
+    </footer>
   </div>
 </template>
+
 
 <style>
 .card-container {
@@ -91,17 +95,12 @@
   }
 }
 
-.card-link {
-  text-decoration: none;
-  color: inherit;
-}
-
 .card {
   border: 1px solid #ddd;
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s;
   margin-bottom: 20px;
 }
 
@@ -111,7 +110,6 @@
 
 .card-image {
   width: 100%;
-  height: auto;
   display: block;
 }
 
@@ -121,7 +119,6 @@
 
 h1, h2, h3, p {
   margin: 0;
-  padding: 0;
 }
 
 h1 {
@@ -132,17 +129,17 @@ h1 {
 
 h2 {
   position: relative;
-  padding: 1rem .5rem;
+  padding: 1rem 0.5rem;
   cursor: pointer;
 }
 
-h2:after {
+h2::after {
+  content: '';
   position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
   height: 5px;
-  content: '';
   background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
 }
 
@@ -163,6 +160,13 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  background-color: #333;
+  color: white;
+}
 </style>
 
 <script>
@@ -170,7 +174,6 @@ export default {
   name: 'MyComponent',
   data() {
     return {
-      message: 'Hello Vue!',
       sections: {
         about: true,
         weekly: true
