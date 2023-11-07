@@ -1,13 +1,15 @@
 <template>
   <div>
     <header>
+    <NuxtLink to="/workspaces/Nuxt3Bootstrap5AppDemo/pages/index.vue">
       <h1>抜き場</h1>
+      </NuxtLink>
     </header>
 
-    <section @click="redirectTo('/workspaces/Nuxt3Bootstrap5AppDemo/pages/WeeklyPage.vue')">
+     <NuxtLink to="/How to">
       <h2>このサイトについて</h2>
-    </section>
-    <NuxtLink to="/WeeklyPage.vue">
+    </NuxtLink>>
+    <NuxtLink to="/WeeklyPage">
       <h2>今週のオカズ</h2>
     </NuxtLink>>
   </div>
@@ -23,7 +25,7 @@ h1 {
 h2 {
   position: relative;
   padding: 1rem .5rem;
-  cursor: pointer; /* クリック可能であることを示すためのカーソルスタイルを追加 */
+  cursor: pointer;
 }
 
 h2:after {
@@ -44,8 +46,8 @@ export default {
     return {
       message: 'Hello Vue!',
       sections: {
-        about: true, // 初期状態では表示
-        weekly: true // 初期状態では表示
+        about: true, //
+        weekly: true //
       }
     };
   },
