@@ -1,71 +1,127 @@
 <template>
   <div>
-   <header>
-    <NuxtLink to="/workspaces/Nuxt3Bootstrap5AppDemo/pages/index.vue">
-      <h1>抜き場</h1>
+    <header>
+      <NuxtLink to="/index">
+        <h1>抜き場</h1>
       </NuxtLink>
     </header>
     <section>
       <h2>今週オカズ</h2>
-      <!-- tksand様の作品 -->
-      <article>
-        <h3>tksand様の作品</h3>
-        <ul>
-          <li>X@Turkey_Sand</li>
-          <li><a href="https://www.pixiv.net/users/29106548" target="_blank">pixiv</a></li>
-          <li><a href="http://tksand.fanbox.cc" target="_blank">fanbox</a></li>
-        </ul>
-        <p>この作品はおっぱいの揺れ方がよくて周りの擬音がそそられるし表情がよかった</p>
-        <img src="/F9sA2E0bEAAR6tW.jpg" alt="鈴仙" class="my-image1">
-      </article>
+      <div class="card-container">
+        <!-- tksand様の作品カード -->
+        <a href="https://twitter.com/Turkey_Sand" target="_blank" class="card-link">
+          <div class="card">
+            <img src="/F9sA2E0bEAAR6tW.jpg" alt="鈴仙" class="card-image">
+            <div class="card-body">
+              <h3>tksand様の作品</h3>
+              <ul>
+                <li>X@Turkey_Sand</li>
+                <li><a href="https://www.pixiv.net/users/29106548" target="_blank">pixiv</a></li>
+                <li><a href="http://tksand.fanbox.cc" target="_blank">fanbox</a></li>
+              </ul>
+              <p>この作品はおっぱいの揺れ方がよくて周りの擬音がそそられるし表情がよかった</p>
+            </div>
+          </div>
+        </a>
 
-      <!-- KAGEMUSYA様の作品 -->
-      <article>
-        <h3>KAGEMUSYA様の作品</h3>
-        <ul>
-          <li>X@_KAGEMUSYA</li>
-          <li><a href="http://kagemusya-web.fanbox.cc" target="_blank">fanbox</a></li>
-        </ul>
-        <p>この作品はハメ撮りされている一花がアヘ顔さらして楽しむ姿がちょー抜けます</p>
-        <img src="/F9uPDBfakAAzB6x.jpg" alt="一花" class="my-image2">
-      </article>
+        <!-- ディッコさん様の作品カード -->
+        <a href="https://twitter.com/dikkosan" target="_blank" class="card-link">
+          <div class="card">
+            <img src="/F-TrkYLbQAApH0-.jpg" alt="お嬢" class="card-image">
+            <div class="card-body">
+              <h3>ディッコさん様の作品</h3>
+              <ul>
+                <li>X @dikkosan</li>
+                <li><a href="https://t.co/z6VodwOM29" target="_blank">Fantia</a></li>
+                <li><a href="https://t.co/z6VodwOM29" target="_blank">fanbox</a></li>
+              </ul>
+              <p>お嬢かわいい！</p>
+              <a href="https://x.com/dikkosan/status/1721759977290019186?s=20">ポスト</a>
+            </div>
+          </div>
+        </a>
 
-      <!-- 藤崎ひかり様の作品 -->
-      <article>
-        <h3>藤崎ひかり様の作品</h3>
-        <ul>
-          <li>X@pedori3</li>
-          <li><a href="https://t.co/CwYKHFCUft" target="_blank">fantia</a></li>
-          <li><a href="https://t.co/dTv3NT6GLb" target="_blank">FANBOX</a></li>
-        </ul>
-        <p>表情や滑らかさどれをとっても最高です!おかゆんの喜ぶお顔が抜きポイント高め！</p>
-        <a href="https://x.com/pedori3/status/1705937133331181939?s=20" target="_blank">ポスト</a>
-      </article>
-      <iframe width="640" height="480" src="/【僕の彼女は猫又おかゆ】ショート版.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        
+        <!-- KAGEMUSYA様の作品カード -->
+        <a href="https://twitter.com/_KAGEMUSYA" target="_blank" class="card-link">
+          <div class="card">
+            <img src="/F9uPDBfakAAzB6x.jpg" alt="一花" class="card-image">
+            <div class="card-body">
+              <h3>KAGEMUSYA様の作品</h3>
+              <ul>
+                <li>X@_KAGEMUSYA</li>
+                <li><a href="http://kagemusya-web.fanbox.cc" target="_blank">fanbox</a></li>
+              </ul>
+              <p>この作品はハメ撮りされている一花がアヘ顔さらして楽しむ姿がちょー抜けます</p>
+            </div>
+          </div>
+        </a>
 
-      <!-- わくら様の作品 -->
-      <article>
-        <h3>わくら様の作品</h3>
-        <ul>
-          <li>X @wakuradosukebe</li>
-          <li><a href="http://x.gd/8CpXz" target="_blank">pixiv</a></li>
-          <li><a href="http://x.gd/8CpXz" target="_blank">fanbox</a></li>
-        </ul>
-        <p>やはりお尻が最高です。揺れるおしりを眺めながら突かれるちんぽをみながら抜きました！ぼっちちゃんの表情もよき！</p>
-        <a href="https://x.com/wakuradosukebe/status/1699352626432028684?s=20" target="_blank">ポスト</a>
-      </article>
+        <!-- 藤崎ひかり様の作品カード -->
+        <a href="https://twitter.com/pedori3" target="_blank" class="card-link">
+          <div class="card">
+            <iframe width="480" height="360" src="/【僕の彼女は猫又おかゆ】ショート版.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="card-body">
+              <h3>藤崎ひかり様の作品</h3>
+              <ul>
+                <li>X@pedori3</li>
+                <li><a href="https://t.co/CwYKHFCUft" target="_blank">fantia</a></li>
+                <li><a href="https://t.co/dTv3NT6GLb" target="_blank">FANBOX</a></li>
+              </ul>
+              <p>表情や滑らかさどれをとっても最高です!おかゆんの喜ぶお顔が抜きポイント高め！</p>
+            </div>
+          </div>
+        </a>
+
+      </div>
     </section>
   </div>
 </template>
 
 <style>
-.my-image1 {
-  width: 200px;
-  height: auto; 
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
 }
-.my-image2 {
-  width: 300px;
-  height: auto; 
+
+@media (max-width: 768px) {
+  .card-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+.card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease-in-out;
+  margin-bottom: 20px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.card-body {
+  padding: 15px;
+}
+
+h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
@@ -88,6 +144,24 @@ h2:after {
   height: 5px;
   content: '';
   background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 5px;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 </style>
 

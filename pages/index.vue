@@ -1,12 +1,12 @@
 <template>
   <div>
     <header>
-    <NuxtLink to="/workspaces/Nuxt3Bootstrap5AppDemo/pages/index.vue">
+    <NuxtLink to="/index">
       <h1>抜き場</h1>
       </NuxtLink>
     </header>
 
-     <NuxtLink to="/How to">
+     <NuxtLink to="/Description">
       <h2>このサイトについて</h2>
     </NuxtLink>>
     <NuxtLink to="/WeeklyPage">
