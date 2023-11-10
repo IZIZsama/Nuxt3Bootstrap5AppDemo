@@ -1,20 +1,20 @@
 <template>
   <div>
     <header>
-      <NuxtLink to="/">
+      <NuxtLink to="/" class="custom-link">
         <h1>抜き場</h1>
       </NuxtLink>
     </header>
 
-    <NuxtLink to="/Description">
+    <NuxtLink to="/Description" class="custom-link">
       <h2>このサイトについて</h2>
     </NuxtLink>
 
-    <NuxtLink to="/WeeklyPage">
+    <NuxtLink to="/WeeklyPage" class="custom-link">
       <h2>今週のオカズ</h2>
     </NuxtLink>
 
-    <NuxtLink to="/recommendation">
+    <NuxtLink to="/recommendation" class="custom-link">
       <h2>おすすめのエロゲまとめ！</h2>
     </NuxtLink>
 
@@ -56,6 +56,11 @@ footer {
   padding: 1rem 0;
   background-color: #333;
   color: white;
+}
+.custom-link:hover {
+  color: rgb(201, 13, 185); 
+  font-size: 30px;
+  text-decoration: none; 
 }
 </style>
 

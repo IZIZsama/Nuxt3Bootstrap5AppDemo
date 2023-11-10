@@ -1,7 +1,7 @@
 <template>
     <div>
       <header>
-      <NuxtLink to="/">
+      <NuxtLink to="/" class="custom-link">
         <h1>抜き場</h1>
         </NuxtLink>
       </header>
@@ -41,6 +41,11 @@ footer {
   padding: 1rem 0;
   background-color: #333;
   color: white;
+}
+.custom-link:hover {
+  color: black; /* カーソルを合わせたときに文字を黒色に変更 */
+  font-size: 18px; /* カーソルを合わせたときに文字サイズを大きくする */
+  text-decoration: none; /* 下線を削除（オプション） */
 }
 </style>
 

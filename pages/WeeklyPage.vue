@@ -1,7 +1,7 @@
 <template>
   <div>
     <header>
-      <NuxtLink to="/">
+      <NuxtLink to="/" class="custom-link">
         <h1>抜き場</h1>
       </NuxtLink>
     </header>
