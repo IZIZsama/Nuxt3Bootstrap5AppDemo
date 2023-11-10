@@ -60,7 +60,7 @@
         <!-- 藤崎ひかり様の作品カード -->
         <div class="card">
           <a href="https://twitter.com/pedori3" target="_blank" class="card-link">
-            <iframe width="480" height="360" src="/&#8203;``【oaicite:0】``&#8203;ショート版.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width=100% height="100%" src="/【僕の彼女は猫又おかゆ】ショート版.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <div class="card-body">
               <h3>藤崎ひかり様の作品</h3>
               <ul>
@@ -83,6 +83,10 @@
 
 
 <style>
+.container {
+  margin-left:100px;
+  margin-right: 100px; 
+}
 .card-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);

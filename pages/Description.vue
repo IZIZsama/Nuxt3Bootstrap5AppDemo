@@ -28,6 +28,10 @@
 </template>
 
 <style>
+.container {
+  margin-left:100px;
+  margin-right: 100px; 
+}
 .profile-image {
   width: 150px;
   height: 150px;

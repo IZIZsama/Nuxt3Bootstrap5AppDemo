@@ -81,6 +81,10 @@
         -->
 
 <style>
+.container {
+  margin-left:100px;
+  margin-right: 100px; 
+}
 h1 {
   text-align: center;
   padding: 1rem 2rem;
