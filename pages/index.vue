@@ -18,6 +18,10 @@
       <h2>おすすめのエロゲまとめ！</h2>
     </NuxtLink>
 
+        <NuxtLink to="/terms of service" class="custom-link">
+      <h2>利用規約</h2>
+    </NuxtLink>
+
     <footer>
       <p>ktc23a31g0006@edu.kyoto-tech.ac.jpまでお問い合わせください</p>
     </footer>
