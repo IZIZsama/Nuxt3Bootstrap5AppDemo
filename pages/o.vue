@@ -1,18 +1,27 @@
 <template>
-  <div>
+  <div class="container">
     <header>
       <NuxtLink to="/" class="custom-link">
         <h1>抜き場</h1>
       </NuxtLink>
-    </header>
+    </header> 
+       <h2>おしらせ</h2>
+      <ul>
+      <li>メンテナンス:2100年1月1日</li>
+      <li>セール情報</li>
+      <a href="https://dlsoft.dmm.co.jp/list/article=keyword/id=7496,300064,300065,300066,300069/sort=ranking/?utm_medium=dmm_affiliate&utm_source=outerlog-001&utm_campaign=affiliate_link_tool&utm_content=link">
+      <img src="https://p.dmm.co.jp/p/dc/bnr/pdg_halloween_127928_728_60.jpg" alt="ハロウィンセール" class="card-image">
+      </a>
+      <li>最後に抜いた日:</li>
 
-
+      </ul>
 
     <footer>
       <p>ktc23a31g0006@edu.kyoto-tech.ac.jpまでお問い合わせください</p>
     </footer>
   </div>
 </template>
+
 
 <style>
 .container {
@@ -55,7 +64,6 @@ footer {
 </style>
 
 <script>
-
 export default {
   name: 'MyComponent',
   data() {
@@ -64,7 +72,12 @@ export default {
       sections: {
         about: true,
         weekly: true
-      }
+      },
+      announcements: [
+        { title: '新しいイベント', content: '2023年11月20日にイベントが開催されます。' },
+        { title: 'メンテナンスのお知らせ', content: '2023年12月1日にシステムメンテナンスを行います。' },
+        // その他のお知らせ...
+      ]
     };
   },
   methods: {
@@ -77,3 +90,4 @@ export default {
   }
 }
 </script>
+

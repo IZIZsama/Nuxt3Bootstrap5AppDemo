@@ -18,7 +18,12 @@
       <h2>おすすめのエロゲまとめ！</h2>
     </NuxtLink>
 
-        <NuxtLink to="/terms of service" class="custom-link">
+     <NuxtLink to="/o" class="custom-link">
+      <h2>おしらせ</h2>
+    </NuxtLink>
+
+
+        <NuxtLink to="/service" class="custom-link">
       <h2>利用規約</h2>
     </NuxtLink>
 
