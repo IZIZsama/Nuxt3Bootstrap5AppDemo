@@ -8,96 +8,16 @@
   
       <h2>おすすめのエロゲまとめ！</h2>
   
-      <cards />
-  
-      <!-- ドーナドーナのゲーム紹介カード -->
-      <div class="card">
-        <a href="https://dlsoft.dmm.co.jp/detail/alice_0053/" target="_blank" class="card-link">
-          <div class="card-body">
-            <img src="/EmBu-ZnVMAEJHDI.jpg" alt="ドーナドーナ" class="card-image">
-            <h3>作品名[ドーナドーナ いっしょにわるいことをしよう]</h3>
-            <ul>
-              <li>作者・サークル[アリスソフト]</li>
-              <NuxtLink to="https://twitter.com/alice_soft">
-                <li>Xアカウント@alice_soft</li>
-              </NuxtLink>
-            </ul>
-            <p>説明・抜きポイント:内容盛りだくさん！抜き絵盛りだくさん！さらにゲームが面白い！完全に抜け目のない（抜く場所はいっぱい）作品です！</p>
-          </div>
-        </a>
-      </div>
-  
-      <!-- 喫茶ステラと死神の蝶 のゲーム紹介カード -->
-      <div class="card">
-        <a href="https://dlsoft.dmm.co.jp/detail/yuzu_0003/" target="_blank" class="card-link">
-          <div class="card-body">
-            <img src="/yuzu_0003pl.jpg" alt="喫茶ステラと死神の蝶" class="card-image">
-            <h3>作品名[喫茶ステラと死神の蝶]</h3>
-            <ul>
-              <li>作者・サークル：ゆずソフト</li>
-              <NuxtLink to="https://twitter.com/yuzusoft">
-                <li>Xアカウント:@yuzusoft</li>
-              </NuxtLink>
-            </ul>
-            <p>説明・抜きポイント：このゲームはストーリーがすごすぎます！私が涙と精子が一緒に出ちゃいました。</p>
-          </div>
-        </a>
-      </div>
+      <Cards />
   
       <footer>
         <p>ktc23a31g0006@edu.kyoto-tech.ac.jpまでお問い合わせください</p>
       </footer>
     </div>
   </template>
-   <!-- 未公開のゲーム紹介カード-->
-         <!--
-      <div class="card">
-        <a href="" target="_blank" class="card-link">
-          <div class="card-body">
-            <h3>作品名[]</h3>
-            <ul>
-              <li>作者・サークル[]</li>
-              <NuxtLink to =""><li>Xアカウント：@</li></NuxtLink>
-            </ul>
-            <p>説明・抜きポイント：</p>
-          </div>
-        </a>
-        </div>
-        -->
+   
 
 <style>
-.container {
-  margin-left:100px;
-  margin-right: 100px; 
-}
-h1 {
-  text-align: center;
-  padding: 1rem 2rem;
-  background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
-}
-
-h2 {
-  position: relative;
-  padding: 1rem .5rem;
-  cursor: pointer;
-}
-
-h2:after {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 5px;
-  content: '';
-  background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
-}
-
-footer {
-  text-align: center;
-  padding: 1rem 0;
-  background-color: #333;
-  color: white;
-}
 
 .card {
   border: 1px solid #ddd;

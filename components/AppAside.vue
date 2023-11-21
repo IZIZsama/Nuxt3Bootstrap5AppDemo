@@ -1,4 +1,3 @@
 <template>
-<Cards />
 
 </template>

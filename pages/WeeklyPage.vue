@@ -83,10 +83,6 @@
 
 
 <style>
-.container {
-  margin-left:100px;
-  margin-right: 100px; 
-}
 .card-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -121,32 +117,6 @@
   padding: 15px;
 }
 
-h1, h2, h3, p {
-  margin: 0;
-}
-
-h1 {
-  text-align: center;
-  padding: 1rem 2rem;
-  background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
-}
-
-h2 {
-  position: relative;
-  padding: 1rem 0.5rem;
-  cursor: pointer;
-}
-
-h2::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 5px;
-  background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
-}
-
 ul {
   list-style: none;
   padding: 0;
@@ -163,13 +133,6 @@ a {
 
 a:hover {
   text-decoration: underline;
-}
-
-footer {
-  text-align: center;
-  padding: 1rem 0;
-  background-color: #333;
-  color: white;
 }
 </style>
 

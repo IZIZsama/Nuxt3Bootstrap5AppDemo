@@ -32,10 +32,6 @@
 </template>
 
 <style>
-.container {
-  margin: left 20px;
-  margin-right: 20px; 
-}
 .profile-image {
   width: 150px;
   height: 150px;
@@ -47,35 +43,6 @@
 
 .profile-description p {
   margin-bottom: 1rem;
-}
-
-h1 {
-  text-align: center;
-  padding: 1rem 2rem;
-  background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
-}
-
-h2 {
-  position: relative;
-  padding: 1rem 0.5rem;
-  cursor: pointer;
-}
-
-h2::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 5px;
-  background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
-}
-
-footer {
-  text-align: center;
-  padding: 1rem 0;
-  background-color: #333;
-  color: white;
 }
 </style>
 
