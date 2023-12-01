@@ -9,8 +9,8 @@
       <ul>
       <li>メンテナンス:2100年1月1日</li>
       <li>セール情報</li>
-      <a href="https://dlsoft.dmm.co.jp/list/article=keyword/id=7496,300064,300065,300066,300069/sort=ranking/?utm_medium=dmm_affiliate&utm_source=outerlog-001&utm_campaign=affiliate_link_tool&utm_content=link">
-      <img src="https://p.dmm.co.jp/p/dc/bnr/pdg_halloween_127928_728_60.jpg" alt="ハロウィンセール" class="card-image">
+      <a href="https://dlsoft.dmm.co.jp/feature/anniversary/">
+      <img src="https://p.dmm.co.jp/p/dc/bnr/pdg_m20th_a5th_127006_728_60.jpg" alt="ハロウィンセール" class="card-image">
       </a>
       <li>最後に抜いた日:</li>
 
