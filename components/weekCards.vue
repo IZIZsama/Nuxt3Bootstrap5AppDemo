@@ -8,6 +8,34 @@
             <p>シェリフ3キル</p>
           </a>
         </div>
+          <div class="card">
+          <a href="" target="_blank" class="card-link">
+            <iframe width=100% height="100%" src="/シェリッフ.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h3>ブリーズ</h3>
+            <p>シェリフ3キル</p>
+          </a>
+        </div>
+        <div class="card">
+          <a href="" target="_blank" class="card-link">
+            <iframe width=100% height="100%" src="/シェリッフ.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h3>ブリーズ</h3>
+            <p>シェリフ3キル</p>
+          </a>
+        </div>
+        <div class="card">
+          <a href="" target="_blank" class="card-link">
+            <iframe width=100% height="100%" src="/シェリッフ.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h3>ブリーズ</h3>
+            <p>シェリフ3キル</p>
+          </a>
+        </div>
+        <div class="card">
+          <a href="" target="_blank" class="card-link">
+            <iframe width=100% height="100%" src="/シェリッフ.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h3>ブリーズ</h3>
+            <p>シェリフ3キル</p>
+          </a>
+        </div>
       </div>
 </template>
 <style>
