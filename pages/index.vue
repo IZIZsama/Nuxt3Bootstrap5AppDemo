@@ -2,7 +2,7 @@
   <div>
     <header>
       <NuxtLink to="/" class="custom-link">
-        <h1>抜き場</h1>
+        <h1>VALORANT攻略サイト</h1>
       </NuxtLink>
     </header>
 
@@ -11,11 +11,11 @@
     </NuxtLink>
 
     <NuxtLink to="/WeeklyPage" class="custom-link">
-      <h2>今週のオカズ</h2>
+      <h2>今週のクリップ</h2>
     </NuxtLink>
 
     <NuxtLink to="/recommendation" class="custom-link">
-      <h2>おすすめのエロゲまとめ！</h2>
+      <h2>おすすめのサイトまとめ！</h2>
     </NuxtLink>
 
      <NuxtLink to="/o" class="custom-link">

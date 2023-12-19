@@ -2,17 +2,17 @@
   <div class="container">
     <header>
       <NuxtLink to="/" class="custom-link">
-        <h1>抜き場</h1>
+        <h1>VALORANT攻略サイト</h1>
       </NuxtLink>
     </header> 
        <h2>おしらせ</h2>
       <ul>
       <li>メンテナンス:2100年1月1日</li>
-      <li>セール情報</li>
-      <a href="https://dlsoft.dmm.co.jp/feature/anniversary/">
-      <img src="https://p.dmm.co.jp/p/dc/bnr/pdg_m20th_a5th_127006_728_60.jpg" alt="ハロウィンセール" class="card-image">
+      <li>お知らせの詳細はXにて公開中！</li>
+      <a href="https://twitter.com/IZIZyoutube">
+      <img src="/workspaces/Nuxt3Bootstrap5AppDemo/public/MicrosoftTeams-image.png" alt="" class="card-image">
       </a>
-      <li>最後に抜いた日:</li>
+      <li>最後にプレーした日:12月19日</li>
 
       </ul>
 

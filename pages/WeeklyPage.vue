@@ -2,12 +2,12 @@
   <div>
     <header>
       <NuxtLink to="/" class="custom-link">
-        <h1>抜き場</h1>
+        <h1>VALORANT攻略サイト</h1>
       </NuxtLink>
     </header>
 
     <section>
-      <h2>今週オカズ</h2>
+      <h2>今週のクリップ</h2>
       <weekCards />
     </section>
 
